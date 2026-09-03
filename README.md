@@ -276,48 +276,4 @@ If the values remain stable, the Bader charge partition is numerically converged
 * PAW-based charge densities are generally preferable when high-quality Bader charge analysis is required.
 * A numerically converged Bader result does not necessarily mean that the resulting charge has a unique chemical interpretation.
 
-## Useful Commands
-
-Check Bader installation:
-
-```bash
-which bader
-```
-
-Check Bader version:
-
-```bash
-bader -h
-```
-
-Generate the Cube file:
-
-```bash
-pp.x < pp.in > pp.out
-```
-
-Run Bader analysis:
-
-```bash
-bader -i cube rho.cube
-```
-
-View the Bader results:
-
-```bash
-cat ACF.dat
-```
-
-Check the total electron count:
-
-```bash
-grep -i "NUMBER OF ELECTRONS" ACF.dat
-```
-
-Check pseudopotential valence electrons:
-
-```bash
-grep -i "z_valence" pseudo/*.UPF
-```
-
 * **Congratulations!!!**
