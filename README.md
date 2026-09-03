@@ -98,12 +98,6 @@ If the calculation is successful, the Gaussian Cube file will be generated:
 rho.cube
 ```
 
-Check the generated file:
-
-```bash
-ls -lh rho.cube
-```
-
 ### 2. Run Bader Analysis
 
 Run:
@@ -116,12 +110,6 @@ The main output file is:
 
 ```text
 ACF.dat
-```
-
-View the results:
-
-```bash
-cat ACF.dat
 ```
 
 ## Understanding `ACF.dat`
