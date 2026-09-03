@@ -49,9 +49,9 @@ Unlike `thermo_pw`, Bader is a standalone program and does not need to be compil
 
   The output should look similar to:
 
-  ```text
-  /home/username/bin/bader
-  ```
+
+>  /home/username/bin/bader
+
 
 * Check the Bader version:
 
