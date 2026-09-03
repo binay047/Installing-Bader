@@ -10,12 +10,6 @@ Unlike `thermo_pw`, Bader is a standalone program and does not need to be compil
 
 ## Procedure
 
-* Download the Bader program from the official website:
-
-  ```text
-  https://theory.cm.utexas.edu/henkelman/code/bader/
-  ```
-
 * Download the Linux 64-bit version:
 
   ```bash
